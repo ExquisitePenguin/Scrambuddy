@@ -18,6 +18,3 @@ func store_value(time):
 	print(times_list)
 
 var times_list: Array
-
-func di():
-	print("a")
