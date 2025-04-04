@@ -1,6 +1,4 @@
 # Scrambuddy
- 
-## Scrambuddy
 Open-source **free speedcubing companion app** for desktop, focused on ease of use and simplicity.
 
 Powered by **Godot 4.3.**
