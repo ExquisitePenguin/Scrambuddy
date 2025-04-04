@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://n8ru7h3geri6"]
+
+[ext_resource type="Script" path="res://control.gd" id="1_jtomg"]
+[ext_resource type="PackedScene" uid="uid://dxofllqjnuf2o" path="res://timer.tscn" id="2_4uu6x"]
+[ext_resource type="PackedScene" uid="uid://q830u2x5hpki" path="res://statistics.tscn" id="2_d8nmv"]
+[ext_resource type="PackedScene" uid="uid://b74et444q86ew" path="res://scrambler.tscn" id="3_j3eit"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jtomg")
+
+[node name="Statistics" parent="." instance=ExtResource("2_d8nmv")]
+layout_mode = 1
+
+[node name="Timer" parent="." instance=ExtResource("2_4uu6x")]
+layout_mode = 1
+
+[node name="Scrambler" parent="." instance=ExtResource("3_j3eit")]
+layout_mode = 1
