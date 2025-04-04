@@ -9,7 +9,8 @@ Powered by **Godot 4.3.**
 - Compatible for many WCA events, and non-wca events.
 - Compact and minimal layouts
 - **No ads, no purchases, fully offline.**
-*Note: These are only intended base features for the fully completed product, and may be subject to change.*
+
+**Note: These are only intended base features for the fully completed product, and may be subject to change.**
 
 ## Current Status
 - Scrambuddy is in its **very early stages of development**, and will be receiving many pushes, big and small.
